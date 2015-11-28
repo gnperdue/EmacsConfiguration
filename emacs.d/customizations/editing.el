@@ -52,7 +52,7 @@
 (global-set-key (kbd "C-;") 'toggle-comment-on-line)
 
 ;; rainbows
-(global-rainbow-delimiters-mode t)
+; (global-rainbow-delimiters-mode t)  ;; buggy as of nov. 28, 2015
 
 ;; use 4 spaces for tabs
 (defun die-tabs ()
