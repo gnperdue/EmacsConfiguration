@@ -16,7 +16,7 @@
 (show-paren-mode 1)
 
 ;; Highlight current line
-(global-hl-line-mode 1)
+;; (global-hl-line-mode 1)
 
 ;; Interactive search key bindings. By default, C-s runs
 ;; isearch-forward, so this swaps the bindings.
@@ -49,7 +49,7 @@
   "comment or uncomment current line"
   (interactive)
   (comment-or-uncomment-region (line-beginning-position) (line-end-position)))
-(global-set-key (kbd "C-;") 'toggle-comment-on-line)
+(global-set-key (kbd "C-c /") 'toggle-comment-on-line)
 
 ;; rainbows
 ; (global-rainbow-delimiters-mode t)  ;; buggy as of nov. 28, 2015

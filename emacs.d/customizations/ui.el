@@ -8,7 +8,7 @@
 (when (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
 ;; Show line numbers
-(global-linum-mode)
+;; (global-linum-mode)
 
 ;; Show column numbers by default
 (setq column-number-mode t)
