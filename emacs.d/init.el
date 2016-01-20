@@ -140,5 +140,6 @@
 ;; (load "setup-yasnippet.el")
 ;; (load "setup-magit.el")
 ;; (load "setup-scad.el")
-;; (load "setup-webjs.el")
+(load "setup-webjs.el")
+(load "setup-elpy.el")
 ;; (load "setup-js.el")
