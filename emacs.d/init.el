@@ -59,14 +59,14 @@
     ;; yasnippet
 
     ;; web & js
-    ;; web-mode
-    ;; js2-mode
+    web-mode
+    js2-mode
 
     ;; 3d design
     ;; scad-mode
 
     ;; Python
-    ;; elpy
+    elpy
 
     ;; git integration
     magit))
@@ -136,8 +136,8 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-markdown.el")
+(load "setup-sbcl.el")
 ;; (load "setup-yasnippet.el")
-;; (load "setup-sbcl.el")
 ;; (load "setup-magit.el")
 ;; (load "setup-scad.el")
 ;; (load "setup-webjs.el")
