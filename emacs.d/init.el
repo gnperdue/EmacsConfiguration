@@ -136,6 +136,7 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-markdown.el")
+(load "setup-cypher.el")
 (load "setup-sbcl.el")
 ;; (load "setup-yasnippet.el")
 ;; (load "setup-magit.el")
