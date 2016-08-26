@@ -9,3 +9,4 @@
 (require 'slime-autoloads)
 (slime-setup '(slime-fancy))
 (global-set-key (kbd "C-c s") 'slime-selector)
+(add-hook 'slime-repl-mode-hook 'enable-paredit-mode)
